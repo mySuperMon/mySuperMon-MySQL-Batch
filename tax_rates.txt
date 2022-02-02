@@ -1,0 +1,4 @@
+SELECT * FROM konakart.tax_rates;
+SELECT * FROM konakart.tax_class;
+SELECT * FROM konakart.reviews;
+SELECT * FROM konakart.reviews_description;

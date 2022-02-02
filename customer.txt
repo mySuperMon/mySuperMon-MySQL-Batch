@@ -1,0 +1,10 @@
+SELECT customers_id, customers_gender, customers_firstname, customers_lastname, customers_dob, customers_email_address, customers_default_address_id, customers_telephone, customers_fax, customers_password, customers_newsletter, custom1, custom2, custom3, custom4, custom5, customers_type, customers_enabled, customers_group_id, store_id, customers_locale, customers_telephone_1, invisible, tax_identifier, tax_exemption, tax_entity, ext_reference_1, ext_reference_2, email_verified, parent_id, password_change, password_expiry, customers_username
+FROM public.customers;
+
+
+
+
+
+
+
+

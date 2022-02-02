@@ -1,0 +1,3 @@
+use konakart;
+SELECT * FROM konakart.zones;
+SELECT * from konakart.zones_to_geo_zones

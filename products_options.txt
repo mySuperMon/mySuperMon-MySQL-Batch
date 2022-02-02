@@ -1,0 +1,3 @@
+use konakart;
+SELECT * FROM konakart.products_options oop
+join konakart.products_options_values valuee on oop.products_options_id = valuee.products_options_values_id;

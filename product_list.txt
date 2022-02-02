@@ -1,0 +1,4 @@
+use konakart;
+SELECT desc1.products_name, sum(att.options_values_price_1), count(*) FROM konakart.products prod
+join konakart.products_description desc1 on prod.products_id = desc1.products_id
+join konakart.products_attributes att on prod.products_id = att.products_id group by desc1.products_name;

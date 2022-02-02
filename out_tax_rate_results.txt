@@ -1,0 +1,8 @@
+tax_rates_id	tax_zone_id	tax_class_id	tax_priority	tax_rate	tax_description	last_modified	date_added	store_id	tax_rate_code
+1	1	1	1	7.0000	FL TAX 7.0%	2021-11-02 10:04:23	2021-11-02 10:04:23	NULL	NULL
+tax_class_id	tax_class_title	tax_class_description	last_modified	date_added	store_id	tax_code
+1	Taxable Goods	The following types of products are included non-food, services, etc	2021-11-02 10:04:23	2021-11-02 10:04:23	NULL	NULL
+reviews_id	products_id	customers_id	customers_name	reviews_rating	date_added	last_modified	reviews_read	custom1	custom2	custom3	store_id	state	vendor_id
+1	19	1	John doe	5	2021-11-02 10:04:23	2021-11-02 10:04:23	0	NULL	NULL	NULL	NULL	0	0
+reviews_id	languages_id	reviews_text	store_id
+1	1	this has to be one of the funniest movies released for 1999!	NULL
