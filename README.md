@@ -1,6 +1,6 @@
 # mySuperMon MySQL Batch 
-Usage of batch file
-Batch file is created to execute the multiple usecases at the time. 
+Usage of batch file-
+Batch file is created to execute the multiple usecases at the same time. 
 
 Prerequisite for running  mySuperMon MySQL batch file
 First add your MySQL agent, application and data source of your application.
