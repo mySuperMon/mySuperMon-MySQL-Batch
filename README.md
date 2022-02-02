@@ -20,16 +20,19 @@ Step 1: In application_config.json file configure ServiceURL,Username, Password,
 In above json configure your details. 
  
 Step 2: Create Usecase _Signup.txt file add the queries of the configured database.
-Step 3: Signup_Result.txt file is created to store the Usecase_Signup execution result
+
+Step 3: Signup_Result.txt file is created to store the Usecase_Signup execution result.
+
 Step 4: The response.json file is created in order to store the report of the usecase after executed
+
 Step 5: In startStopRecording.bat file the start/stop functinality using start/stop API of mySupermMon is implemented.
 
 5.1 Configured all the details specified in application-config.json in start/stop batch file using this below code
-
+```ruby
 more application_config.json | jq-win64.exe ".serviceUrl" >> temp.txt
 set /p serviceUrl=<temp.txt
 del -f temp.txt
-
+```
 You just need add your application-config.json file here
 
 5.2 Generated the access token using configured application details using this code
