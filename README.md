@@ -19,9 +19,9 @@ Step 1: In application_config.json file configure ServiceURL,Username, Password,
 
 In above json configure your details. 
  
-Step 2: Create Usecase _Signup.txt file add the queries of the configured database.
+Step 2: Create customer.txt file add the queries of the configured database.
 
-Step 3: Signup_Result.txt file is created to store the Usecase_Signup execution result.
+Step 3: out_customer_Result.txt file is created to store the Usecase_Signup execution result.
 
 Step 4: The response.json file is created in order to store the report of the usecase after executed
 
